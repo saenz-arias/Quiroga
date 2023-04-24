@@ -5357,17 +5357,119 @@ ul.list-footer li a {
 	font-size: 51px;
  }
 
+ /* SECCION DOCTORA */
+
+ #doctora-front{
+	width: 400px;
+	/* margin-left: 100px; */
+	margin-left: 10%;
+
+}
+ #parrafo-doctora h4 {
+	margin-top: 7%;
+	font-size: 51px;
+	font-weight: 800;
+	color: #51B9DC;
+ }
+ #parrafo-doctora p {
+	font-size: 17px;
+	margin-right: 140px;
+	padding-top: 121px;
+	margin-top: -95px;
+	line-height: 161%;
+ }
+
+ /* TESTIMONIAL */
+ #testimonial{
+	background-color: #51B9DC;
+	color: white;
+	padding: 4%;
+ }
+ #testimonial h3{
+	color: white;
+	font-family:  'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	padding: 4%;
+ }
+ #testimonial p{
+	color: white;
+	padding: 4%;
+ }
+ 
+
 
  @media (max-width: 991.98px) { 
+	#doctora-front{
+		width: 400px;
+		margin-left: none;
+		margin-left: 20%;
 	
+	}
+	 #parrafo-doctora h4 {
+		margin-top: 7%;
+		font-size: 81px;
+		font-weight: 800;
+		color: #51B9DC;
+		text-align: center;
+	 }
+	 #parrafo-doctora p {
+		font-size: 25px;
+		margin-right: 10px;
+		padding-top: 121px;
+		margin-top: -95px;
+		margin-bottom: 41px;
+		line-height: 115%;
+		text-align: justify;
+	 }
   }
 
  @media (max-width: 768px) { 
-
+	#doctora-front{
+		width: 400px;
+		margin-left: none;
+		margin-left: 20%;
+	}
+	 #parrafo-doctora h4 {
+		margin-top: 7%;
+		font-size: 81px;
+		font-weight: 800;
+		color: #51B9DC;
+		text-align: center;
+	 }
+	 #parrafo-doctora p {
+		font-size: 25px;
+		margin-right: 10px;
+		padding-top: 121px;
+		margin-top: -95px;
+		margin-bottom: 41px;
+		line-height: 115%;
+		text-align: justify;
+	 }
   }
 
   @media (max-width: 575.98px) { 
-	
+	#doctora-front{
+		width: 270px;
+		margin-left: none;
+		margin-left: 10%;
+	}
+	 #parrafo-doctora h4 {
+		margin-top: 7%;
+		font-size: 55px;
+		font-weight: 800;
+		color: #51B9DC;
+		text-align: center;
+	 }
+	 #parrafo-doctora p {
+		font-size: 19px;
+		margin-right: 10px;
+		padding-top: 121px;
+		margin-top: -95px;
+		margin-bottom: 41px;
+		line-height: 115%;
+		text-align: justify;
+	 }
    }
 
 
@@ -5733,7 +5835,6 @@ ul.list-footer li a {
 		padding-left: 7%;
 	 }
  }
-
 
 
 
